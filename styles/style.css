@@ -156,9 +156,20 @@ h4 {
    font-size: 100%;
    color: gray;
 }
+
+h4 span {
+   font-size: 120%;
+   color: #446677
+}
 /* ---------------------------- */
 
 /* ------ Skills Page Banner ------ */
+.container {
+   display: block;
+   margin: auto;
+   max-width: 90%;
+}
+
 .banner {
    display: flex;
    flex-direction: row;

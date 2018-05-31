@@ -55,7 +55,7 @@ a:visited {
 
 .cover-photo {
    position: relative;
-   background: url(cover-photo.png);
+   background: url(../img/cover-photo.png);
    background-size: cover;
    height: 160px;
    margin-bottom: -60px;

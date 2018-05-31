@@ -1,0 +1,218 @@
+/* Tanner Wilson ePortfolio Style Sheet */
+/* COLORS:  */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Work+Sans:200');
+
+body {
+   width: 100%;
+   margin: 0;
+   background-color: whitesmoke;
+}
+
+/* ---------------------- MOBILE FIRST (320px-414px) --------------------- */
+
+/* ------ Generic Styles ------ */
+.center-img img {
+   display: block;
+   margin: auto;
+}
+/* ---------------------------- */
+
+/* ------ Header/Nav (every page) ------ */
+.nav {
+   display: flex;
+   flex-direction: column;
+   margin: 0;
+   padding: 0;
+}
+
+.nav a {
+   list-style-type: none;
+   display: block;
+   height: 40px;
+   width: 100%;
+   margin: 0;
+   text-decoration: none;
+   background-color: #026282;
+}
+
+.nav li {
+   text-align: center;
+   padding: 10px;
+   font-family: "Work Sans", sans-serif;
+   color: whitesmoke;
+}
+
+a {
+   text-decoration: none;
+   color: gray;
+}
+
+a:visited {
+   text-decoration: none;
+   color: gray;
+}
+
+.cover-photo {
+   position: relative;
+   background: url(cover-photo.png);
+   background-size: cover;
+   height: 160px;
+   margin-bottom: -60px;
+   z-index: 0;
+   box-shadow: 1px 1px 10px lightgray;
+}
+
+.profile-pic {
+   position: relative;
+   display: block;
+   width: 80px;
+   margin: auto;
+   padding: 10px;
+   z-index: 1;
+}
+
+.dashboard {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   box-shadow: 1px 1px 10px lightgray;
+   text-align: center;
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
+
+.dashboard img {
+   height: 40%;
+   margin-top: 10px;
+   padding: 6px;
+   padding-bottom: 2px;
+}
+
+.top-box {
+   width: 31%;
+   height: 5em;
+   border-bottom: solid 1px #E3E3E3;
+}
+
+.bottom-box {
+   width: 31%;
+   height: 5em;
+}
+
+.center-box {
+   width: 31%;
+   height: 5em;
+   border-right: solid 1px #E3E3E3;
+   border-left: solid 1px #E3E3E3;
+}
+
+.top-center-box {
+   width: 31%;
+   height: 5em;
+   border-bottom: solid 1px #E3E3E3;
+   border-right: solid 1px #E3E3E3;
+   border-left: solid 1px #E3E3E3;
+}
+/* ------------------------------------- */
+
+/* ------ Heading Styles ------ */
+h1 {
+   text-align: center;
+   font-family: 'Work Sans', sans-serif;
+   font-size: 150%;
+   color: #000000;
+   margin-top: 0;
+   margin-bottom: 0;
+   padding: 5px;
+}
+
+h2 {
+   text-align: center;
+   font-family: 'Work Sans', sans-serif;
+   font-size: 80%;
+   color: gray;
+   margin-top: auto;
+   margin-bottom: auto;
+   padding: 10px;
+   padding-top: 5px;
+}
+
+h3 {
+   margin: 0;
+   font-family: 'Work Sans', sans-serif;
+   text-transform: uppercase;
+   font-size: 60%;
+   color: gray;
+}
+
+h4 {
+   font-family: 'Work Sans', sans-serif;
+   font-size: 100%;
+   color: gray;
+}
+/* ---------------------------- */
+
+/* ------ Skills Page Banner ------ */
+.banner {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.code-logos {
+   height: 60px;
+   padding: 10px;
+   margin: auto;
+}
+/* -------------------------------- */
+
+/* ------ About Me (index) ------ */
+.logo-box {
+   display: block;
+   margin: auto;
+}
+
+.logo-box img {
+   display: block;
+   padding: 28px;
+   width: 60%;
+   margin: auto;
+}
+
+.aboutme-box {
+   display: block;
+   width: 90%;
+   margin: auto;
+   vertical-align: top;
+   text-align: justify;
+}
+/* ------------------------------ */
+
+/* ------ Footer (every page) ------ */
+footer {
+   height: 200px;
+   background-color: #a3c4d5;
+   box-shadow: inset 0 10px 10px -10px gray;
+}
+
+.footer-logo {
+   height: 38px;
+   padding: 20px;
+   opacity: 0.5;
+}
+
+.footer-icons {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.footer-icons img {
+   height: 60px;
+   padding: 10px;
+   margin: auto;
+}
+/* --------------------------------- */
